@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bear Ninja Hunter</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <h2>Bear, Ninja, Hunter</h2>
+    <p>Play against the computer!</p>
+    <ul>
+        <li>The Bear Beats the Hunter.</li>
+        <li>The Hunter beats the Ninja.</li>
+        <li>And the Ninja beats the Bear.</li>
+    </ul>
+    <hr>
+    <p>Click a button below to select your choice.</p>
+    <div id="buttons">
+        <button onclick="playGame('Bear')">Bear</button>
+        <button onclick="playGame('Ninja')">Ninja</button>
+        <button onclick="playGame('Hunter')">Hunter</button>
+    </div>
+    <hr>
+    <div id="result"></div>
+    <button id="play-again" onclick="resetGame()" style="display: none;">Play Again?</button>
+    <script src="JS/script.js"></script>
+</body>
+</html>
